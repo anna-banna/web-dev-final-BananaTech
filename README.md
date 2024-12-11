@@ -1,10 +1,12 @@
 # UNCW Server Side Web Development Final Project 
+
+## Overview:
 This project was developed as part of a server-side web development class. It demonstrates key principles of building dynamic web applications using PHP and SQL. The project focuses on user authentication, session management, and ticket submission functionality, showcasing skills in server-side programming, database integration, and reusable code structures. 
 
-## BananaTech: IT Consulting
+### BananaTech: IT Consulting
 This is a web-based ticket management system designed to streamline the process of submitting, tracking, and resolving user tickets.
 
-### Project Structure
+#### Project Structure
 
 - **index.php:** The homepage of the application.
 
