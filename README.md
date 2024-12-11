@@ -1,6 +1,6 @@
 # UNCW Server Side Web Development Final Project 
 
-## Overview:
+## Overview
 This project was developed as part of a server-side web development class. It demonstrates key principles of building dynamic web applications using PHP and SQL. The project focuses on user authentication, session management, and ticket submission functionality, showcasing skills in server-side programming, database integration, and reusable code structures. 
 
 ### BananaTech: IT Consulting
