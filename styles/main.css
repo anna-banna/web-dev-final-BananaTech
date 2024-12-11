@@ -1,0 +1,160 @@
+/* Anna Burgess /╲/\●.●/\╱\ */
+body {
+    background-color: #f2f0e3;
+    font-family: 'Roboto', sans-serif;
+    color: #0e4252;
+    margin: 25px;
+    padding: 25px;
+}
+
+header {
+    white-space: nowrap;
+    text-align: left;
+    padding: 10px;
+}
+
+header img {
+    width: 10%;
+    height: 10%;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding-left: 10px;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+section h3 {
+    color: #056262;
+    margin: 30px 0 5px 0;
+}
+
+section p {
+    margin: 0 0 10px 0;
+}
+
+footer {
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e7e7e7;
+}
+
+a {
+    color: #056262;
+}
+
+a:hover {
+    color: #6cc8ca;
+}
+
+a:visited {
+    color: #abb3b6;
+}
+
+fieldset {
+    border: 1px solid #036;
+    padding: 10px;
+    margin: 10px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #6cc8ca;
+
+}
+
+label {
+    font-weight: bold;
+    font-size: 1em;
+    color: #036;
+    display: block;
+    margin: 10px 0 5px 0;
+}
+
+.warning {
+    font-weight: bold;
+    color: rgb(124, 89, 237);
+}
+
+#nav {
+    position: relative;
+    margin-top: 20px;
+    width: 90px;
+}
+
+ul#nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav a {
+    display: block;
+    width: 105px;
+    padding-left: 10px;
+    margin: 3px 0;
+    text-decoration: none;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#nav a:link,
+#nav a:visited {
+    border-left: #6cc8ca solid 10px;
+    color: #6cc8ca;
+}
+
+#nav a:hover,
+#nav a:active {
+    border-left-color: #fff;
+    background-color: #6cc8ca;
+    color: #fff;
+}
+
+a#here {
+    border-left-color: #fff !important;
+    background-color: #e4edf0 !important;
+    color: #6cc8ca !important;
+}
+
+.accordion {
+    background-color: #f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.accordion:hover {
+    background-color: #ddd;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
